@@ -2,14 +2,19 @@ import time
 
 import streamlit as st
 
-from resources import data_ncert_8_mathc1
+from resources import data_ncert_8_mathc1, data_ncert_8_mathc2
 
 st.title("FiguraSolve")
 st.markdown("The Perfect Place For Your Learning,Creativity and Thinking")
 st.divider()
 a = st.selectbox(
     "Please Select a Board of Education",
-    ["Default(Toggle)", "AI-ResourceBuilder(RB)[Upcoming]", "CBSE", "STATE EDUCATION"],
+    [
+        "Default(Toggle)",
+        "AI-ResourceBuilder(RB)[Upcoming]",
+        "CBSE",
+        "STATE EDUCATION[Upcoming]",
+    ],
 )
 if a == "CBSE":
     classn = st.selectbox(
@@ -104,4 +109,12 @@ if a == "CBSE":
                 st.title("Ganita Prakash|Chapter-2:Power Play")
                 st.subheader("Resources For Ganita Prakash|Power Play")
                 st.divider()
-                st.markdown("")
+                with st.expander("1. Link Resources"):
+                    lin1 = data_ncert_8_mathc2["Resources(Link)"]["l1"]
+                    st.markdown(f"1. [NCERT PDF]({lin1})")
+                    lin2 = data_ncert_8_mathc2["Resources(Link)"]["l2"]
+                    st.markdown(f"2. [LearnCbse]({lin2})")
+                    lin3 = data_ncert_8_mathc2["Resources(Link)"]["l3"]
+                    st.markdown(f"3. [The Study Path]({lin3})")
+                    lin4 = data_ncert_8_mathc2["Resources(Link)"]["l4"]
+                    st.markdown(f"[Tiwari Academy]({lin4})")

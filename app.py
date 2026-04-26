@@ -117,4 +117,4 @@ if a == "CBSE":
                     lin3 = data_ncert_8_mathc2["Resources(Link)"]["l3"]
                     st.markdown(f"3. [The Study Path]({lin3})")
                     lin4 = data_ncert_8_mathc2["Resources(Link)"]["l4"]
-                    st.markdown(f"[Tiwari Academy]({lin4})")
+                    st.markdown(f"4. [Tiwari Academy]({lin4})")

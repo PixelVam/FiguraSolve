@@ -47,3 +47,35 @@ data_ncert_8_mathc2 = {
         },
     }
 }
+data_ncert_mathc3 = {
+    "Resources": {
+        "vid1": "https://www.youtube.com/playlist?list=PLrkyG3NoI7n4jAt5tstPgl1OwZ4BTbfgn",
+        "vid2": "https://www.youtube.com/watch?v=Ho5SGplHw0g",
+        "vid3": "https://www.youtube.com/watch?v=4n9lfvREaNc",
+        "vid4": "https://www.youtube.com/watch?v=HFvLt6EZb0o",
+        "l1": "https://school.careers360.com/ncert/ncert-syllabus-for-class-8-maths",
+        "l2": "https://www.learncbse.in/a-story-of-numbers-class-8-solutions/",
+        "l3": "https://ncert.nic.in/textbook/pdf/hegp103.pdf",
+        "l4": "https://www.sarthaks.com/3834940/ncert-solutions-class-8-maths-ganita-prakash-chapter-3-a-story-of-numbers",
+        "l5": "https://www.tiwariacademy.com/ncert-solutions/class-8/maths/ganita-prakash-chapter-3/",
+        "l6": "https://mathify.in/a-story-of-numbers-class-8-solutions-ganita-prakash-maths-chapter-3/",
+        "l7": "https://www.teachoo.com/subjects/cbse-maths/class-8/chapter-3-ganita-prakash/",
+        "i1": "https://www.tcsion.com/ncert/class8-maths",
+        "i2": "https://spinthecrocodile.com/blog/cbse-maths-games-class-6-8",
+        "i3": "https://supertutor.in/resources/cbse/class-8/maths/study-plan/a-story-of-numbers/",
+        "i4": "https://phet.colorado.edu/en/simulations/number-play",
+        "i5": "https://phet.colorado.edu/en/simulations/make-a-ten",
+        "i6": "https://people.ucsc.edu/~thaygood/calculator.html",
+    }
+}
+
+data_ncert_8_englishc1 = {
+    "Resources": {
+        "l1": "https://www.learncbse.in/the-wit-that-won-hearts-class-8-question-answer/",
+        "l2": "https://www.tiwariacademy.com/ncert-solutions/class-8/english/poorvi-unit-1-chapter-1/",
+        "l3": "https://www.englishwithmrk.co.in/2025/11/the-wit-that-won-hearts-class-8-english_12.html",
+        "l4": "https://school.careers360.com/ncert/ncert-syllabus-for-class-8-english",
+        "l5": "https://www.learninsta.com/the-wit-that-won-hearts-class-8-worksheet/",
+        "l6": "",
+    }
+}

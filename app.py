@@ -2,7 +2,7 @@ import time
 
 import streamlit as st
 
-from resources import data_ncert_8_englishc1, data_ncert_8_mathc1, data_ncert_8_mathc2, data_ncert_mathc3
+from resources import data_ncert_8_mathc1, data_ncert_8_mathc2, data_ncert_mathc3, data_ncert_8_englishc1
 
 st.title("FiguraSolve")
 st.markdown("The Perfect Place For Your Learning,Creativity and Thinking")

@@ -32,10 +32,18 @@ data_ncert_8_mathc2 = {
         "l2": "https://www.learncbse.in/power-play-class-8-solutions/",
         "l3": "https://www.thestudypath.com/ncert-solutions-class-8-maths-ganita-prakash-part-1-chapter-2/",
         "l4": "https://www.tiwariacademy.com/ncert-solutions/class-8/maths/ganita-prakash-chapter-2/",
+        "l5": "https://www.learncbse.in/power-play-class-8-worksheet/",
         "Resources(Vid)": {
+            "vid1": "https://www.youtube.com/watch?v=UiY5Pk8f9WE",
+            "vid2": "https://www.youtube.com/watch?v=eFp7b1h3_0g",
+            "vid3": "https://www.youtube.com/playlist?list=PL_RV5frGkpbAIjJg2Ntxupv6idYjk1ktk",
+            "vid4": "https://www.youtube.com/playlist?list=PLrkyG3NoI7n4xCDm5Lb96rzs44NZV22eH",
+            "vid5": "https://www.youtube.com/watch?v=TwoDt2fsXRk",
             "Resources(I)": {
-
-            }
-        }
+                "i1": "https://www.tcsion.com/ncert/class8-maths-power-play",
+                "i2": "https://supertutor.in/resources/cbse/class-8/maths/revision-notes/power-play/",
+                "i3": "https://www.teachoo.com/subjects/cbse-maths/class-8/chapter-2-ganita-prakash/",
+            },
+        },
     }
 }

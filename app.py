@@ -118,3 +118,37 @@ if a == "CBSE":
                     st.markdown(f"3. [The Study Path]({lin3})")
                     lin4 = data_ncert_8_mathc2["Resources(Link)"]["l4"]
                     st.markdown(f"4. [Tiwari Academy]({lin4})")
+                with st.expander("2. Video Resources"):
+                    vidi1 = data_ncert_8_mathc2["Resources(Link)"]["Resources(Vid)"][
+                        "vid1"
+                    ]
+                    st.markdown(f"1. [Youtube Video: PowerPlay(1)]({vidi1})")
+                    vidi2 = data_ncert_8_mathc2["Resources(Link)"]["Resources(Vid)"][
+                        "vid2"
+                    ]
+                    st.markdown(f"2. [Youtube Video: Power Play(2)]({vidi2})")
+                    vidi3 = data_ncert_8_mathc2["Resources(Link)"]["Resources(Vid)"][
+                        "vid3"
+                    ]
+                    st.markdown(f"3. [Youtube Video: Power Play(3)]({vidi3})")
+                    vidi4 = data_ncert_8_mathc2["Resources(Link)"]["Resources(Vid)"][
+                        "vid4"
+                    ]
+                    vidi5 = data_ncert_8_mathc2["Resources(Link)"]["Resources(Vid)"][
+                        "vid5"
+                    ]
+                    st.markdown(f"4. [Youtube Video: Power Play(4)]({vidi4})")
+                    st.markdown(f"5. [Youtube Video: Power Play(5)]({vidi5})")
+                    in1 = data_ncert_8_mathc2["Resources(Link)"]["Resources(Vid)"][
+                        "Resources(I)"
+                    ]["i1"]
+                    in2 = data_ncert_8_mathc2["Resources(Link)"]["Resources(Vid)"][
+                        "Resources(I)"
+                    ]["i2"]
+                    in3 = data_ncert_8_mathc2["Resources(Link)"]["Resources(Vid)"][
+                        "Resources(I)"
+                    ]["i3"]
+                with st.expander("3. Interaction and Phet Resources"):
+                    st.markdown(f"1. [TCSION INTERACTION]({in1})")
+                    st.markdown(f"2. [Super Tutor]({in2})")
+                    st.markdown(f"3. [Teachoo]({in3})")

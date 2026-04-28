@@ -2,7 +2,7 @@ import time
 
 import streamlit as st
 
-from resources import (
+from .resources import (
     data_ncert_8_englishc1,
     data_ncert_8_mathc1,
     data_ncert_8_mathc2,

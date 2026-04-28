@@ -71,11 +71,42 @@ data_ncert_mathc3 = {
 
 data_ncert_8_englishc1 = {
     "Resources": {
-        "l1": "https://www.learncbse.in/the-wit-that-won-hearts-class-8-question-answer/",
-        "l2": "https://www.tiwariacademy.com/ncert-solutions/class-8/english/poorvi-unit-1-chapter-1/",
-        "l3": "https://www.englishwithmrk.co.in/2025/11/the-wit-that-won-hearts-class-8-english_12.html",
-        "l4": "https://school.careers360.com/ncert/ncert-syllabus-for-class-8-english",
-        "l5": "https://www.learninsta.com/the-wit-that-won-hearts-class-8-worksheet/",
-        "l6": "",
+        "lin1": "https://www.learncbse.in/the-wit-that-won-hearts-class-8-question-answer/",
+        "lin2": "https://www.tiwariacademy.com/ncert-solutions/class-8/english/poorvi-unit-1-chapter-1/",
+        "lin3": "https://www.englishwithmrk.co.in/2025/11/the-wit-that-won-hearts-class-8-english_12.html",
+        "lin4": "https://school.careers360.com/ncert/ncert-syllabus-for-class-8-english",
+        "lin5": "https://www.learninsta.com/the-wit-that-won-hearts-class-8-worksheet/",
+        "interaction_1": "https://wordwall.net/resource/23809403/tenali-raman",
+        "interaction_2": "https://wordwall.net/resource/19856722/english-ct-tenali-rama-and-conjunctions",
+        "interaction_3": "https://wordwall.net/resource/66983463/rama",
+        "interaction_4": "https://www.englishnotes.in/2025/10/the-wit-that-won-hearts-class-8-ncert.html",
+        "video_1": "https://www.youtube.com/watch?v=lk6vgGCb3e8",
+        "video_2": "https://www.youtube.com/watch?v=ngZfaBKFSj8",
+        "video_3": "https://www.youtube.com/watch?v=SEfa0IIpSmE",
+        "video_4": "https://www.youtube.com/watch?v=pQ-xQ6Rwe8U",
+    }
+}
+data_ncert_8_mathc4 = {
+    "Resources": {
+        "l1": "https://www.learncbse.in/quadrilaterals-class-8-solutions/",
+        "l2": "https://school.careers360.com/ncert/ncert-solutions-class-8-maths-chapter-4",
+        "l3": "https://www.tiwariacademy.com/ncert-solutions/class-8/maths/ganita-prakash-chapter-4/",
+        "l4": "https://ncert.nic.in/textbook/pdf/hegp104.pdf",
+        "l5": "https://www.sarthaks.com/3835001/ncert-solutions-class-8-maths-ganita-prakash-chapter-4-quadrilaterals",
+        "vid1": "https://www.youtube.com/playlist?list=PLM7yq3heQr2O1P5kbQpb84t5tmQjf1stn",
+        "vid2": "https://www.youtube.com/watch?v=CB5ARUuGCcI&t=525s",
+        "vid3": "https://www.youtube.com/playlist?list=PL_RV5frGkpbAS9hY5w2K4fo-zYUM4qgRl",
+        "vid4": "https://www.youtube.com/watch?v=4ypVZVpu_KM",
+        "vid5": "https://www.youtube.com/playlist?list=PLM7yq3heQr2O1P5kbQpb84t5tmQjf1stn",
+        "vid6": "https://www.youtube.com/watch?v=6Ae6m1um-Qo",
+        "vid7": "https://www.youtube.com/watch?v=n5yaHsjSuVI",
+        "vid8": "https://www.youtube.com/watch?v=IxRlLsDjAV0",
+        "vid9": "https://www.youtube.com/watch?v=1BCrIlFjP3E",
+        "vid10": "https://www.youtube.com/playlist?list=PLrkyG3NoI7n6Yrqmo512jxtvw9HD0igEw",
+        "i1": "https://www.teachoo.com/subjects/cbse-maths/class-8/chapter-4-ganita-prakash/",
+        "i2": "https://www.tcsion.com/ncert/class8-maths-quadrilaterals",
+        "i3": "https://phet.colorado.edu/en/simulations/quadrilateral",
+        "i4": "https://cbse.io/class-8/mathematics-understanding-quadrilaterals/",
+        "i5": "https://www.khanacademy.org/math/class-8-ncf/x7eef1bd24a76901b:quadrilaterals",
     }
 }

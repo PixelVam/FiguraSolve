@@ -7,7 +7,7 @@ from resources import (
     data_ncert_8_mathc1,
     data_ncert_8_mathc2,
     data_ncert_8_mathc4,
-    data_ncert_mathc3,
+    data_ncert_mathc3
 )
 
 st.title("FiguraSolve")

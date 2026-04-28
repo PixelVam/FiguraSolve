@@ -2,7 +2,13 @@ import time
 
 import streamlit as st
 
-from resources import data_ncert_8_mathc1, data_ncert_8_mathc2, data_ncert_mathc3, data_ncert_8_englishc1
+from resources import (
+    data_ncert_8_englishc1,
+    data_ncert_8_mathc1,
+    data_ncert_8_mathc2,
+    data_ncert_8_mathc4,
+    data_ncert_mathc3,
+)
 
 st.title("FiguraSolve")
 st.markdown("The Perfect Place For Your Learning,Creativity and Thinking")
@@ -42,7 +48,17 @@ if a == "CBSE":
             st.divider()
             chaptersn = st.selectbox(
                 "Please Select a Chapter",
-                ["Default(Toggle)", "Chapter 1", "Chapter 2", "Chapter 3"],
+                [
+                    "Default(Toggle)",
+                    "Chapter 1",
+                    "Chapter 2",
+                    "Chapter 3",
+                    "Chapter 4",
+                    "Chapter 5",
+                    "Chapter 6",
+                    "Chapter 7",
+                    "Chapter 8",
+                ],
             )
             if subjectsn == "Maths(Part 1)" and chaptersn == "Chapter 1":
                 st.header("Ganita Prakash(Part 1) Chapter 1: A Square and A Cube")
@@ -194,15 +210,90 @@ if a == "CBSE":
                     st.markdown(f"6. [People.UCSC: Ancient Calculator]({it6})")
             if chaptersn == "Chapter 1" and subjectsn == "English":
                 st.title("English Poorvi: The Wit That Won Hearts")
-                st.divider() 
-                lik1 = data_ncert_8_englishc1["Resources"]["l1"]
-                lik2 = data_ncert_8_englishc1["Resources"]["l2"]
-                lik3 = data_ncert_8_englishc1["Resources"]["l3"]
-                lik4 = data_ncert_8_englishc1["Resources"]["l4"] 
-                lik5 = data_ncert_8_englishc1["Resources"]["l5"]
+                st.divider()
+                lik1 = data_ncert_8_englishc1["Resources"]["lin1"]
+                lik2 = data_ncert_8_englishc1["Resources"]["lin2"]
+                lik3 = data_ncert_8_englishc1["Resources"]["lin3"]
+                lik4 = data_ncert_8_englishc1["Resources"]["lin4"]
+                lik5 = data_ncert_8_englishc1["Resources"]["lin5"]
                 with st.expander("1. Link Resources"):
                     st.markdown(f"1. [LearnCbse]({lik1})")
                     st.markdown(f"2. [Tiwari Academy]({lik2})")
-                    st.markdown(f"3. [EnglishwithMrk]({lik3})") 
+                    st.markdown(f"3. [EnglishwithMrk]({lik3})")
                     st.markdown(f"4. [SchoolCareers360]({lik4})")
                     st.markdown(f"5. [LearnInsta]({lik5})")
+                with st.expander("2. Interactive Resources"):
+                    iy1 = data_ncert_8_englishc1["Resources"]["interaction_1"]
+                    iy2 = data_ncert_8_englishc1["Resources"]["interaction_2"]
+                    iy3 = data_ncert_8_englishc1["Resources"]["interaction_3"]
+                    iy4 = data_ncert_8_englishc1["Resources"]["interaction_4"]
+                    st.markdown(f"1. [WordWall:Tenali Rama(1)]({iy1})")
+                    st.markdown(f"2. [WordWall: Tenali Rama(2)]({iy2})")
+                    st.markdown(f"3. [WordWall: Tenali Rama(3)]({iy3})")
+                    st.markdown(f"4. [EnglishNotes.in]({iy4})")
+                    vi1 = data_ncert_8_englishc1["Resources"]["video_1"]
+                    vi2 = data_ncert_8_englishc1["Resources"]["video_2"]
+                    vi3 = data_ncert_8_englishc1["Resources"]["video_3"]
+                    vi4 = data_ncert_8_englishc1["Resources"]["video_4"]
+                with st.expander("3. Video Resources"):
+                    st.markdown(
+                        f"1. [Youtube Video: The Wit that Won Hearts(1)]({vi1})"
+                    )
+                    st.markdown(
+                        f"2. [Youtube Video: The Wit that Won Hearts(2)]({vi2})"
+                    )
+                    st.markdown(
+                        f"3. [Youtube Video: The Wit that Won Hearts(3)]({vi3})"
+                    )
+                    st.markdown(
+                        f"4. [Youtube Video: The Wit that Won Hearts(4)]({vi4})"
+                    )
+            if chaptersn == "Chapter 4" and subjectsn == "Maths(Part 1)":
+                st.title("Ganita Prakash: Quadilaterals")
+                st.divider()
+                st.subheader(
+                    "Curated Resources For Class 8 Ganita Prakash: Quadilaterals"
+                )
+                with st.expander("1. Link Resources"):
+                    liq1 = data_ncert_8_mathc4["Resources"]["l1"]
+                    liq2 = data_ncert_8_mathc4["Resources"]["l2"]
+                    liq3 = data_ncert_8_mathc4["Resources"]["l3"]
+                    liq4 = data_ncert_8_mathc4["Resources"]["l4"]
+                    liq5 = data_ncert_8_mathc4["Resources"]["l5"]
+                    st.markdown(f"1. [LearnCbse]({liq1})")
+                    st.markdown(f"2. [SchoolCareers360]({liq2})")
+                    st.markdown(f"3. [Tiwari Academy]({liq3})")
+                    st.markdown(f"4. [NCERT PDF]({liq4})")
+                    st.markdown(f"5. [Sarthaks]({liq5})")
+                with st.expander("2. Video Resources"):
+                    vd1 = data_ncert_8_mathc4["Resources"]["vid1"]
+                    vd2 = data_ncert_8_mathc4["Resources"]["vid2"]
+                    vd3 = data_ncert_8_mathc4["Resources"]["vid3"]
+                    vd4 = data_ncert_8_mathc4["Resources"]["vid4"]
+                    vd5 = data_ncert_8_mathc4["Resources"]["vid5"]
+                    vd6 = data_ncert_8_mathc4["Resources"]["vid6"]
+                    vd7 = data_ncert_8_mathc4["Resources"]["vid7"]
+                    vd8 = data_ncert_8_mathc4["Resources"]["vid8"]
+                    vd9 = data_ncert_8_mathc4["Resources"]["vid9"]
+                    vd10 = data_ncert_8_mathc4["Resources"]["vid10"]
+                    st.markdown(f"1. [Youtube Video: Quadilaterals(1)]({vd1})")
+                    st.markdown(f"2. [Youtube Video: Quadilaterals(2)]({vd2})")
+                    st.markdown(f"3. [Youtube Video: Quadilaterals(3)]({vd3})")
+                    st.markdown(f"4. [Youtube Video: Quadilaterals(4)]({vd4})")
+                    st.markdown(f"5. [Youtube Video: Quadilaterals(5)]({vd5})")
+                    st.markdown(f"6. [Youtube Video: Quadilaterals(6)]({vd6})")
+                    st.markdown(f"7. [Youtube Video: Quadilaterals(7)]({vd7})")
+                    st.markdown(f"8. [Youtube Video: Quadilaterals(8)]({vd8})")
+                    st.markdown(f"9. [Youtube Video: Quadilaterals(9)]({vd9})")
+                    st.markdown(f"10. [Youtube Video: Quadilaterals(10)]({vd10})")
+                with st.expander("3. Interactive and Phet Resources"):
+                    ia1 = data_ncert_8_mathc4["Resources"]["i1"]
+                    ia2 = data_ncert_8_mathc4["Resources"]["i2"]
+                    ia3 = data_ncert_8_mathc4["Resources"]["i3"]
+                    ia4 = data_ncert_8_mathc4["Resources"]["i4"]
+                    ia5 = data_ncert_8_mathc4["Resources"]["i5"]
+                    st.markdown(f"1. [Teachoo]({ia1})")
+                    st.markdown(f"2. [TCSION Interaction]({ia2})")
+                    st.markdown(f"3. [Phet]({ia3})")
+                    st.markdown(f"4. [Cbse.io]({ia4})")
+                    st.markdown(f"5. [Khan Academy]({ia5})")
